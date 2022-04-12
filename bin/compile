@@ -13,7 +13,7 @@ arrow() {
   sed -u 's/^/-----> /'
 }
 
-GS_VERSION_SEMVER="9.52"
+GS_VERSION_SEMVER="9.56"
 GS_VERSION="952"
 echo "Installing Ghostscript $GS_VERSION_SEMVER using build directory $1" | arrow
 
